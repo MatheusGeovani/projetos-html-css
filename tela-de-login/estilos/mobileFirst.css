@@ -36,11 +36,11 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease ;
 }
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../img/image-brasil.jpg) no-repeat;
+    background: #5f2c82 url(../img/fundo-futurista-abstrato-com-design-3d.jpg) no-repeat;
     height: 200px;
     background-position: center center;
     background-size: cover;
@@ -52,6 +52,14 @@ section#login > div#formulario {
 
 }
 
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
 
 
 
